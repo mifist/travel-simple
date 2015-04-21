@@ -1,0 +1,202 @@
+body {
+	font: 14px/1.5 'Open Sans', Arial, sans-serif;
+	color: #fff;
+	min-width: 960px;
+}
+a {
+	text-decoration: none;
+	display: block;
+}
+						/*HEADER*/
+.ba-header {
+	background: url("../img/banner.jpg") no-repeat 50% 50%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	color: #fff;
+}
+.ba-header nav {
+	background: rgba(247, 253, 254, 1.0);
+	font-size: 0;
+	text-align: center;
+	padding: 15px 0;
+	letter-spacing: 1px;
+}
+.ba-container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ba-header nav li {
+	display: inline-block;
+	font-size: 14px;
+	float: right;
+	font-weight: bold;
+}
+.ba-header nav li a {
+	color: rgba(130, 134, 143, 1.0);
+	padding-right:35px;
+	text-transform: uppercase;
+	height: 45px;		 	/*menu center*/
+	line-height: 45px;		/*menu center*/
+}
+.ba-header nav .logo a {
+	float: left;
+	font-size: 30px;
+}
+.logo, .sign {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.ba-header nav .logo a {
+	color: rgba(130, 134, 143, 1.0);
+}
+.ba-header nav .sign a {
+	display: inline-block;
+	float: right;
+	width: 130px;
+	font-size: 14px;
+	background: #0ebfdd;
+	border-radius: 25px;
+	color: rgba(247, 253, 254, 1.0);
+	padding: 10px 35px;
+}
+nav:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+.ba-header .ba-mission {
+	padding: 402px 100px 80px;
+}
+.ba-mission  h2 {
+	font-size: 44px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.ba-mission  h2  span {
+	padding: 0 15px;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.ba-mission p {
+	font-size: 19px;
+}
+						/*MAIN Section - About*/
+.ba-main .about {
+	background: rgba(247, 253, 254, 1.0);
+	padding: 60px 100px 60px;
+}
+.ba-main .about  h3 {
+	font-size: 44px;
+	color: #0ebfdd;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.ba-main .about  p {
+	color: #45494d;
+	font-size: 19px;
+}
+						/*MAIN Section - Team*/
+.ba-main .team {
+	background: #0ebfdd;
+	padding: 50px 0;
+}
+.ba-main .team  h4 {
+	color: #fff;
+	font-size: 44px;
+	font-weight: bold;
+}
+
+.team .face:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.face [class^="doe-"] {
+	display: inline-block;
+	padding: 80px 35px;
+}
+.face [class^="doe-"]  img {
+	border-radius: 50%;
+}
+[class^="doe-"]  p {
+	 font-size: 18px;
+	 font-weight: bold;
+}
+[class^="doe-"] .nor {
+	font-size: 16px;
+	font-weight: normal;
+	font-style: italic;
+}
+.team .work {
+	text-transform: uppercase;
+	width: 185px;
+	margin: auto;
+}
+.team .work a {
+	color: #f7fdfe;
+	border: 1px solid #f7fdfe;
+	border-radius: 25px;
+	padding: 15px 37px;
+}
+							/*MAIN Section - Map*/
+.ba-main .map {
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+							/*Footer - hight*/
+.ba-footer {
+	background: #45494d;
+	font-size: 0;
+}
+.ba-footer .hight  li {
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 12px;
+}
+.hight li a {
+	color: #d7dee4;
+	padding-right: 35px
+}
+.hight:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+.menu {
+	float: left;
+	height: 40px;		 	/*menu center*/
+	line-height: 40px;
+	padding: 20px 0;
+}
+.icon {
+	float: right;
+	padding: 20px 0;
+}
+.icon li .fa {
+	border: 2px solid #D7DEE4;
+	border-radius: 50%;
+	padding: 10px;
+	margin-left: 10px;
+}
+.hight li .fa-facebook {
+	padding: 10px 12px;
+}
+.ba-footer .low {
+	border-top: 1px solid #73767a;
+	width: 960px;
+	margin: 0 auto;
+}
+							/*Footer - low*/
+.low  li {
+	color: #73767a;
+	display: inline-block;
+	font-size: 12px;
+	float: right;
+	padding: 15px 0;
+}
+.ba-footer:after {
+	content:"";
+	display: table;
+	clear: both;
+}
